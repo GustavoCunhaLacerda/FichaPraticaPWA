@@ -4,6 +4,8 @@
  - Pop: Subcomando interno do git stash para reaplicar atualizações de arquivos que foram enviados para uma área temporária através do comando git stash.
 
 2 – Quais sáo as vantagens de usar Branchs num repositório git?
+Usar branches no git dá uma série de vantagens para quem desenvolve sistemas, por exemplo, é possível guardar versões diferentes de uma mesma base de códigos para que uma atualização ou mudança não afete a branch original, como uma linha do tempo alternativa que compartilha o histórico de origem, mas permite desenvolver mudanças separadamente até uma eventual integração por merge. Além disso, é possível organizar melhor as mudanças facilitando a auditoria junto dos commits.
+
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
