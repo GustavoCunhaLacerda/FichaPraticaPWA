@@ -1,0 +1,34 @@
+<html>
+  <h3>1 - O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?</h3>
+  <ul>
+    <li><strong>Commit:</strong> Comando interno do <i>git</i> para criação de um pacote (preparadas no <i>staging</i> com <i>git add</i>) com as mudanças locais realizadas em arquivos gerenciados pelo git adicionando em um pacote fechado e normalmente comentado. Funciona como um <i>checkpoint</i> das alterações feitas naquele momento, podendo ser desfeito ou enviado para o repositório remoto.</li>
+    <li><strong>Push:</strong> Comando interno do <i>git</i> para realização de um envio de Commits locais para o repositório remoto.</li>
+    <li><strong>Pop:</strong> Subcomando interno do <i>git stash</i> para reaplicar atualizações de arquivos que foram enviados para uma área temporária através do comando <i>git stash</i>.</li>
+  </ul>
+
+
+  <h3>2 – Quais sáo as vantagens de usar Branchs num repositório git?</h3>
+  <p>
+    Usar branches no <i>git</i> dá uma série de vantagens para quem desenvolve sistemas, por exemplo, é possível guardar versões diferentes de uma mesma base de códigos para que uma atualização ou mudança <span style="text-decoration: underline;">não afete a branch original</span>, como uma linha do tempo alternativa que compartilha o histórico de origem, mas permite desenvolver mudanças separadamente até uma eventual integração por merge. Além disso, é possível organizar melhor as mudanças facilitando a auditoria junto dos commits.
+  </p>
+    
+  <h3>3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
+  que consistem e como podem ser resolvidos esses conflitos?</h3>
+  <p>
+    Os conflitos resultantes de merges de pops são quando há alterações feitas na base atual e são aplicadas alterações que o <i>git</i> não consegue lidar automaticamente. Como o Git não consegue combinar automaticamente as alterações tem que haver uma ação manual que pode ter 3 formas:
+  </p>
+  <ol>
+    <li>Manter como está;</li>
+    <li>Aplicar as mudanças do merge;</li>
+    <li>Combinar as duas versões, ajustando o conteúdo para resolver o conflito.</li>
+  </ol>
+  <p>
+    Assim se corrige um conflito de <i>merge</i>.
+  </p>
+
+  <h3>4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
+  diferenças entre eles?</h3>
+  <p>
+    No <i>git</i> o <i>clone</i> é o comando básico para resgatar localmente um repositório remoto configurando, por padrão, o repositório de origem como remoto <i>origin</i>. Já no <i>fork</i>, um recurso de plataformas que utilizam o <i>git</i> como o <i>GitHub</i>, o repositório é clonado através da criação de um novo repositório sob outra conta ou organização mantendo o histórico e uma relação com o repositório original, mas com um endereço próprio. Assim é possível copiar um repositório inteiro e criar um novo produto ou contribuir com <i>pull requests</i>.
+  </p>
+</html>
