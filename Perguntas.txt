@@ -1,4 +1,8 @@
 1 - O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?
+ - Commit: Comando interno do git para criação de um pacote (preparadas no staging com git add) com as mudanças locais realizadas em arquivos gerenciados pelo git adicionando em um pacote fechado e normalmente comentado. Funciona como um checkpoint das alterações feitas naquele momento, podendo ser desfeito ou enviado para o repositório remoto.
+ - Push: Comando interno do git para realização de um envio de Commits locais para o repositório remoto.
+ - Pop: Subcomando interno do git stash para reaplicar atualizações de arquivos que foram enviados para uma área temporária através do comando git stash.
+
 2 – Quais sáo as vantagens de usar Branchs num repositório git?
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
