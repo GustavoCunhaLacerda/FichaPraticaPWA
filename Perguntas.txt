@@ -8,5 +8,7 @@ Usar branches no git dá uma série de vantagens para quem desenvolve sistemas, 
 
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
+Os conflitos resultantes de merges de pops são quando há alterações feitas na base atual e são aplicadas alterações que o git não consegue lidar automaticamente. Como o Git não consegue combinar automaticamente as alterações tem que haver uma ação manual que pode ter 3 formas, manter o que está, aplicar as mudanças e ignorar o que está atualmente ou manter ambas e ajustar depois. Assim se corrige um conflito de merge.
+
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
