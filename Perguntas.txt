@@ -12,3 +12,4 @@ Os conflitos resultantes de merges de pops são quando há alterações feitas n
 
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
+No Git o clone é o comando básico para resgatar localmente um repositório remoto configurando, por padrão, o repositório de origem como remoto origin. Já no Fork, um recurso de plataformas que utilizam o git como o GitHub, o repositório é clonado através da criação de um novo repositório sob outra conta ou organização mantendo o histórico e uma relação com o repositório original, mas com um endereço próprio. Assim é possível copiar um repositório inteiro e criar um novo produto ou contribuir com pull requests.
